@@ -17,9 +17,3 @@ jobs:
           skipTypeChecking: true
           skipTests: true
           skipLinter: true
-      - name: "Release"
-        uses: Orkuncakilkaya/dx-team-toolkit/.github/actions/release-typescript-project@v1
-        with:
-         skipLinter: true
-         skipTests: true
-         skipTypeChecking: true
