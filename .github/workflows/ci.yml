@@ -14,6 +14,6 @@ jobs:
       - name: "Build"
         uses: Orkuncakilkaya/dx-team-toolkit/.github/actions/build-typescript-project@v1
         with:
-         skipLinter: true
-         skipTests: true
-         skipTypeChecking: true
+          skipTypeChecking: true
+          skipTests: true
+          skipLinter: true
