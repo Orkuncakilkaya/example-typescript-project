@@ -1,0 +1,14 @@
+name: Release
+on:
+  push:
+    branches:
+      - 'main'
+  workflow_dispatch:
+
+
+jobs:
+  build:
+    name: 'Release Flow'
+    uses: Orkuncakilkaya/dx-team-toolkit/.github/workflows/release-typescript-project.yml@v1
+    with:
+      distFolderNeedForRelease: false
