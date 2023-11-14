@@ -17,3 +17,4 @@ jobs:
           skipTypeChecking: true
           skipTests: true
           skipLinter: true
+          GH_RELEASE_TOKEN: ${{ secrets.GH_RELEASE_TOKEN }}
