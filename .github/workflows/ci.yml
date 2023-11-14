@@ -6,6 +6,7 @@ on:
 
 jobs:
   build:
+    runs-on: ubuntu-latest
     steps:
       - name: 'Build project'
         uses: Orkuncakilkaya/dx-team-toolkit/.github/workflows/build-typescript-project.yml@v1
