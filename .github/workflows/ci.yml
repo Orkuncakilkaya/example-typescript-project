@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: 'Build Flow'
-    uses: Orkuncakilkaya/dx-team-toolkit/.github/workflows/build-typescript-project.yml@v1
+    uses: Orkuncakilkaya/dx-team-toolkit/.github/actions/build-typescript-project@v1
     with:
      skipLinter: true
      skipTests: true
