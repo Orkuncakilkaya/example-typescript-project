@@ -8,4 +8,4 @@ on:
 
 jobs:
   build:
-    uses: Orkuncakilkaya/dx-team-toolkit/.github/workflows/build-typescript-project.yml@446c8b43d8eeb8b07d3f684fd270c22488bd67ba
+    uses: Orkuncakilkaya/dx-team-toolkit/.github/workflows/build-typescript-project.yml@b5d1a6dc1b37bfed4cc341de0b7b3b205990f3c4
