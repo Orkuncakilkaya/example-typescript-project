@@ -14,8 +14,3 @@ jobs:
      skipLinter: true
      skipTests: true
      skipTypeChecking: true
-  release:
-    name: 'Releae Flow'
-    uses: Orkuncakilkaya/dx-team-toolkit/.github/workflows/release-typescript-project.yml@v1
-    with:
-      distFolderNeedForRelease: true
