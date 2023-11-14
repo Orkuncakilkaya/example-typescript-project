@@ -8,4 +8,8 @@ on:
 
 jobs:
   build:
-    uses: Orkuncakilkaya/dx-team-toolkit/.github/workflows/build-typescript-project.yml@b5d1a6dc1b37bfed4cc341de0b7b3b205990f3c4
+    name: 'Build Flow'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build Typescript Project
+        uses: Orkuncakilkaya/dx-team-toolkit/.github/workflows/build-typescript-project.yml@b5d1a6dc1b37bfed4cc341de0b7b3b205990f3c4
