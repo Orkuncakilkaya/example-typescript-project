@@ -1,0 +1,17 @@
+{
+  "name": "example-typescript-project",
+  "version": "0.1.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "engines": {
+    "node": "18"
+  },
+  "scripts": {
+    "build": "tsc ./src/index.ts --outDir ./dist -d ./src/index.ts --sourceMap --declarationMap"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.2.2"
+  }
+}

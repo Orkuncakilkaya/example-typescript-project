@@ -1,0 +1,11 @@
+name: CI
+on:
+  push:
+    branches:
+      - 'main'
+
+jobs:
+  build:
+    steps:
+      - name: 'Build project'
+        uses: Orkuncakilkaya/dx-team-toolkit/.github/workflows/build-typescript-project.yml@v1
